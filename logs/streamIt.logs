@@ -1,0 +1,315 @@
+2023-10-22 00:00:29.123  INFO 19536 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 19536 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:00:29.130  INFO 19536 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:00:29.761  INFO 19536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:00:29.837  INFO 19536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:00:30.391  INFO 19536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:00:30.403  INFO 19536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:00:30.403  INFO 19536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:00:30.515  INFO 19536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:00:30.515  INFO 19536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1330 ms
+2023-10-22 00:00:30.686  INFO 19536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:00:31.014  INFO 19536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:00:31.065  INFO 19536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:00:31.147  INFO 19536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:00:31.421  INFO 19536 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:00:31.600  INFO 19536 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:00:32.399  INFO 19536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:00:32.412  INFO 19536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:00:32.975  WARN 19536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:00:33.388  INFO 19536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:00:33.401  INFO 19536 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 4.681 seconds (JVM running for 5.391)
+2023-10-22 00:00:33.685  INFO 19536 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:01:12.655  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-22 00:01:12.656  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-22 00:01:12.657  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-22 00:01:12.718  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:01:12.755  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:02:23.813  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-3] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:02:23.821  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-3] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:03:22.479  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-4] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:03:22.485  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-4] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:03:25.950  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-5] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:03:25.950  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-5] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:04:41.076  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-8] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:04:41.082  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-8] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:04:53.893  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-9] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:04:53.900  INFO 19536 --- [http-nio-192.168.0.118-8080-exec-9] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:05:25.515  INFO 19536 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:05:25.519  INFO 19536 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:05:25.520  INFO 19536 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-22 00:05:25.528  INFO 19536 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:05:25.530  INFO 19536 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:05:25.538  INFO 19536 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:05:44.186  INFO 21880 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 21880 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:05:44.190  INFO 21880 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:05:44.857  INFO 21880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:05:44.935  INFO 21880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:05:45.505  INFO 21880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:05:45.517  INFO 21880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:05:45.517  INFO 21880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:05:45.641  INFO 21880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:05:45.642  INFO 21880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1402 ms
+2023-10-22 00:05:45.822  INFO 21880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:05:46.149  INFO 21880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:05:46.202  INFO 21880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:05:46.252  INFO 21880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:05:46.467  INFO 21880 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:05:46.583  INFO 21880 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:05:47.179  INFO 21880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:05:47.190  INFO 21880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:05:47.660  WARN 21880 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:05:48.078  INFO 21880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:05:48.091  INFO 21880 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 4.367 seconds (JVM running for 5.163)
+2023-10-22 00:05:48.361  INFO 21880 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:06:02.936  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-22 00:06:02.937  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-22 00:06:02.938  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-22 00:06:02.999  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-1] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:06:03.040  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-1] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:07:29.520  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-3] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:07:29.523  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-3] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:07:59.089  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-4] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:07:59.097  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-4] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:08:32.928  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-6] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:08:32.936  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-6] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:08:37.728  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-7] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:08:37.736  INFO 21880 --- [http-nio-192.168.0.118-8080-exec-7] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:08:48.623  INFO 21880 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:08:48.627  INFO 21880 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:08:48.628  INFO 21880 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-22 00:08:48.636  INFO 21880 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:08:48.638  INFO 21880 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:08:48.647  INFO 21880 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:11:28.410  INFO 24372 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 24372 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:11:28.413  INFO 24372 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:11:28.995  INFO 24372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:11:29.067  INFO 24372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:11:29.568  INFO 24372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:11:29.580  INFO 24372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:11:29.580  INFO 24372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:11:29.691  INFO 24372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:11:29.691  INFO 24372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1229 ms
+2023-10-22 00:11:29.854  INFO 24372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:11:30.182  INFO 24372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:11:30.234  INFO 24372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:11:30.283  INFO 24372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:11:30.487  INFO 24372 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:11:30.597  INFO 24372 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:11:31.149  INFO 24372 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:11:31.161  INFO 24372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:11:31.577  WARN 24372 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:11:31.920  INFO 24372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:11:31.930  INFO 24372 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 3.91 seconds (JVM running for 4.605)
+2023-10-22 00:11:32.155  INFO 24372 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:13:21.596  INFO 24372 --- [http-nio-192.168.0.118-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-22 00:13:21.597  INFO 24372 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-22 00:13:21.598  INFO 24372 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-22 00:13:21.664  INFO 24372 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:13:21.704  INFO 24372 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:15:14.014  INFO 24372 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:15:14.018  INFO 24372 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:15:14.019  INFO 24372 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-22 00:15:14.026  INFO 24372 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:15:14.028  INFO 24372 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:15:14.038  INFO 24372 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:15:55.429  INFO 23564 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 23564 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:15:55.432  INFO 23564 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:15:56.049  INFO 23564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:15:56.125  INFO 23564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:15:56.633  INFO 23564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:15:56.644  INFO 23564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:15:56.644  INFO 23564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:15:56.757  INFO 23564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:15:56.757  INFO 23564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1278 ms
+2023-10-22 00:15:56.922  INFO 23564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:15:57.249  INFO 23564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:15:57.299  INFO 23564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:15:57.349  INFO 23564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:15:57.548  INFO 23564 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:15:57.655  INFO 23564 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:15:58.211  INFO 23564 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:15:58.223  INFO 23564 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:15:58.639  WARN 23564 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:15:58.989  INFO 23564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:15:58.998  INFO 23564 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 3.959 seconds (JVM running for 4.66)
+2023-10-22 00:15:59.212  INFO 23564 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:16:09.392  INFO 23564 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:16:09.396  INFO 23564 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:16:09.403  INFO 23564 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:16:09.405  INFO 23564 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:16:09.413  INFO 23564 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:19:39.459  INFO 19752 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 19752 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:19:39.463  INFO 19752 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:19:40.277  INFO 19752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:19:40.372  INFO 19752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:19:41.074  INFO 19752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:19:41.086  INFO 19752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:19:41.086  INFO 19752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:19:41.242  INFO 19752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:19:41.243  INFO 19752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1716 ms
+2023-10-22 00:19:41.453  INFO 19752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:19:41.875  INFO 19752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:19:41.942  INFO 19752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:19:42.020  INFO 19752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:19:42.280  INFO 19752 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:19:42.459  INFO 19752 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:19:43.210  INFO 19752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:19:43.227  INFO 19752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:19:43.733  WARN 19752 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:19:44.151  INFO 19752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:19:44.161  INFO 19752 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 5.245 seconds (JVM running for 6.162)
+2023-10-22 00:19:44.440  INFO 19752 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:22:25.755  INFO 19752 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:22:25.762  INFO 19752 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:22:25.776  INFO 19752 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:22:25.779  INFO 19752 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:22:25.793  INFO 19752 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:22:32.940  INFO 22928 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 22928 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:22:32.944  INFO 22928 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:22:33.557  INFO 22928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:22:33.632  INFO 22928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:22:34.263  INFO 22928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:22:34.275  INFO 22928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:22:34.275  INFO 22928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:22:34.414  INFO 22928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:22:34.414  INFO 22928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1422 ms
+2023-10-22 00:22:34.597  INFO 22928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:22:35.000  INFO 22928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:22:35.090  INFO 22928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:22:35.193  INFO 22928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:22:35.404  INFO 22928 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:22:35.533  INFO 22928 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:22:36.250  INFO 22928 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:22:36.268  INFO 22928 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:22:36.786  WARN 22928 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:22:37.272  INFO 22928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:22:37.301  INFO 22928 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 4.828 seconds (JVM running for 5.626)
+2023-10-22 00:22:37.752  INFO 22928 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:23:08.698  INFO 22928 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:23:08.703  INFO 22928 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:23:08.710  INFO 22928 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:23:08.713  INFO 22928 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:23:08.722  INFO 22928 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:28:18.798  INFO 13464 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 13464 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:28:18.801  INFO 13464 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:28:19.470  INFO 13464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:28:19.541  INFO 13464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:28:20.308  INFO 13464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:28:20.323  INFO 13464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:28:20.323  INFO 13464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:28:20.525  INFO 13464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:28:20.526  INFO 13464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1672 ms
+2023-10-22 00:28:20.805  INFO 13464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:28:21.216  INFO 13464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:28:21.277  INFO 13464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:28:21.334  INFO 13464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:28:21.677  INFO 13464 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:28:21.810  INFO 13464 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:28:22.542  INFO 13464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:28:22.560  INFO 13464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:28:23.090  WARN 13464 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:28:23.525  INFO 13464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:28:23.537  INFO 13464 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 5.157 seconds (JVM running for 5.936)
+2023-10-22 00:28:23.779  INFO 13464 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:28:27.824  INFO 13464 --- [http-nio-192.168.0.118-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-22 00:28:27.825  INFO 13464 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-22 00:28:27.826  INFO 13464 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-22 00:28:27.890  INFO 13464 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : StreamIt register New User api starts
+2023-10-22 00:28:27.935  INFO 13464 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : StreamIt register New User api ends
+2023-10-22 00:28:40.244  INFO 13464 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:28:40.248  INFO 13464 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:28:40.249  INFO 13464 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-22 00:28:40.256  INFO 13464 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:28:40.259  INFO 13464 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:28:40.267  INFO 13464 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:30:40.456  INFO 24904 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 24904 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:30:40.459  INFO 24904 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:30:41.087  INFO 24904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:30:41.163  INFO 24904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:30:41.694  INFO 24904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:30:41.708  INFO 24904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:30:41.709  INFO 24904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:30:41.823  INFO 24904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:30:41.823  INFO 24904 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2023-10-22 00:30:41.995  INFO 24904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:30:42.416  INFO 24904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:30:42.481  INFO 24904 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:30:42.567  INFO 24904 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:30:42.829  INFO 24904 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:30:43.003  INFO 24904 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:30:43.872  INFO 24904 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:30:43.888  INFO 24904 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:30:44.556  WARN 24904 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:30:45.059  INFO 24904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:30:45.073  INFO 24904 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 5.063 seconds (JVM running for 5.801)
+2023-10-22 00:30:45.392  INFO 24904 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:42:34.028  INFO 24904 --- [http-nio-192.168.0.118-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-22 00:42:34.029  INFO 24904 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-22 00:42:34.031  INFO 24904 --- [http-nio-192.168.0.118-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-22 00:42:34.188  INFO 24904 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : Streamit Upload video api start
+2023-10-22 00:42:34.215  INFO 24904 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : Streamit Upload video api end
+2023-10-22 00:42:57.336  INFO 24904 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:42:57.341  INFO 24904 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:42:57.342  INFO 24904 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-22 00:42:57.351  INFO 24904 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:42:57.354  INFO 24904 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:42:57.365  INFO 24904 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 00:43:52.292  INFO 24400 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 24400 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 00:43:52.295  INFO 24400 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 00:43:52.881  INFO 24400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 00:43:52.948  INFO 24400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 4 JPA repository interfaces.
+2023-10-22 00:43:53.439  INFO 24400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 00:43:53.450  INFO 24400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 00:43:53.450  INFO 24400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 00:43:53.560  INFO 24400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 00:43:53.561  INFO 24400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1215 ms
+2023-10-22 00:43:53.722  INFO 24400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 00:43:54.049  INFO 24400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 00:43:54.100  INFO 24400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 00:43:54.151  INFO 24400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 00:43:54.352  INFO 24400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 00:43:54.456  INFO 24400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 00:43:55.025  INFO 24400 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 00:43:55.036  INFO 24400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:43:55.453  WARN 24400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 00:43:55.797  INFO 24400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 00:43:55.806  INFO 24400 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 3.905 seconds (JVM running for 4.624)
+2023-10-22 00:43:56.015  INFO 24400 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 00:44:04.738  INFO 24400 --- [http-nio-192.168.0.118-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-22 00:44:04.739  INFO 24400 --- [http-nio-192.168.0.118-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-22 00:44:04.740  INFO 24400 --- [http-nio-192.168.0.118-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-22 00:44:04.886  INFO 24400 --- [http-nio-192.168.0.118-8080-exec-1] c.s.s.controller.StreamItController      : Streamit Upload video api start
+2023-10-22 00:44:04.915  INFO 24400 --- [http-nio-192.168.0.118-8080-exec-1] c.s.s.controller.StreamItController      : Streamit Upload video api end
+2023-10-22 00:44:05.020  INFO 24400 --- [http-nio-192.168.0.118-8080-exec-2] c.s.s.controller.StreamItController      : Streamit Upload video api start
+2023-10-22 00:45:44.996  INFO 24400 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 00:45:44.999  INFO 24400 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 00:45:45.001  INFO 24400 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-22 00:45:45.007  INFO 24400 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 00:45:45.009  INFO 24400 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 00:45:45.018  INFO 24400 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-22 01:00:55.139  INFO 5736 --- [main] c.s.spring.StreamItServiceApplication    : Starting StreamItServiceApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 5736 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\StreamItService)
+2023-10-22 01:00:55.142  INFO 5736 --- [main] c.s.spring.StreamItServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-10-22 01:00:55.962  INFO 5736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-22 01:00:56.038  INFO 5736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2023-10-22 01:00:56.579  INFO 5736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-22 01:00:56.590  INFO 5736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-22 01:00:56.591  INFO 5736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-22 01:00:56.717  INFO 5736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-22 01:00:56.718  INFO 5736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1517 ms
+2023-10-22 01:00:56.898  INFO 5736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-22 01:00:57.260  INFO 5736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-22 01:00:57.315  INFO 5736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-22 01:00:57.378  INFO 5736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-22 01:00:57.599  INFO 5736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-22 01:00:57.715  INFO 5736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-22 01:00:58.259  INFO 5736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-22 01:00:58.272  INFO 5736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 01:00:58.692  WARN 5736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-22 01:00:59.036  INFO 5736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-22 01:00:59.045  INFO 5736 --- [main] c.s.spring.StreamItServiceApplication    : Started StreamItServiceApplication in 4.663 seconds (JVM running for 6.414)
+2023-10-22 01:00:59.270  INFO 5736 --- [main] c.s.spring.common.SourceInitializer      : StreamItUI = QFNyYnZnamNic2hiMTRodWk4ITV+MTJnaHZ5eWJqaGIjNG9r
+2023-10-22 01:01:00.870  INFO 5736 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-22 01:01:00.874  INFO 5736 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-22 01:01:00.881  INFO 5736 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-22 01:01:00.883  INFO 5736 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-22 01:01:00.892  INFO 5736 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

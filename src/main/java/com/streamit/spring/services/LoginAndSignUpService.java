@@ -5,25 +5,24 @@ import java.util.Date;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.streamit.spring.model.ErrorConstants;
 import com.streamit.spring.model.Db.Login;
-import com.streamit.spring.model.Dto.LoginUserDto;
+import com.streamit.spring.model.Db.User;
 import com.streamit.spring.model.Dto.RegisterUserDto;
 import com.streamit.spring.model.Dto.ResponseDTO;
-import com.streamit.spring.repository.LoginRepository;
-import com.streamit.spring.security.CryptoGraphy;
-import com.streamit.spring.repository.LoginRepository;
+import com.streamit.spring.repository.UserRepository;
 
 @Service
 public class LoginAndSignUpService {
+		
+	@Autowired
+	private UserRepository userRepository;
 	
 	@Autowired
-	private LoginRepository  loginRepo;
-	
-	@Autowired
-	private CryptoGraphy cryptoUtil;
+	private BCryptPasswordEncoder encoder;
 	
 	private Logger logger = LoggerFactory.getLogger(LoginAndSignUpService.class); 
 
@@ -46,14 +45,23 @@ public class LoginAndSignUpService {
 			return new ResponseDTO(2, ErrorConstants.ERROR_CODE_INVALID_USERNAME_VALUE, ErrorConstants.ERRMSG_INVALID_USERNAME_VALUE);
 		}
 		
+		if (dto.getEmail().length()<=0) {
+			return new ResponseDTO(2, ErrorConstants.ERROR_CODE_INVALID_USEREMAIL_VALUE, ErrorConstants.ERRMSG_INVALID_USEREMAIL_VALUE);
+		}
+		
+		String encodedPassword = encoder.encode(dto.getPassword());
+		
 		Login login = new Login(dto.getName(), 
 								dto.getUserName(),	
-								dto.getPassword(),	
-								new Date());
+								encodedPassword,	
+								new Date(), 
+								dto.getEmail());
+		
+		User user = new User(login, 2, new Date());
 		
 		try {
-		    logger.debug("login body to save in db {}", login); 
-			loginRepo.save(login);	
+		    logger.debug("user body to save in db {}", user); 
+			userRepository.save(user);
 			return new ResponseDTO(1); 
 		     
 		} catch (Exception e) {

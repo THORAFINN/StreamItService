@@ -45,6 +45,9 @@ public class Login {
 	
 	@Column(name = "mod_dt")
 	private Date modDt ;
+	
+	@Column(name = "email")
+	private String email;
 
 	public Integer getId() {
 		return id;
@@ -93,17 +96,26 @@ public class Login {
 	public void setModDt(Date modDt) {
 		this.modDt = modDt;
 	}
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 	public Login() {
 		super();
 	}
 
-	public Login(String name, String username, String password, Date crdtDt) {
+	public Login(String name, String username, String password, Date crdtDt, String email) {
 		super();
 		this.name = name;
 		this.username = username;
 		this.password = password;
 		this.crdtDt = crdtDt;
+		this.email = email;
 	}
 	
 	

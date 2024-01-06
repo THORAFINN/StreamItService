@@ -14,6 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -122,10 +123,12 @@ public class StreamItController {
 	 * @return
 	 */
 	@PostMapping(StreamItConstants.SIGN_UP_NEW_USER)
-	public ResponseEntity<ResponseDTO> registerNewUser (@RequestBody RegisterUserDto registerUserDto,  HttpServletRequest request ){
+	public ResponseEntity<ResponseDTO> registerNewUser (@RequestBody RegisterUserDto registerUserDto,
+			                @RequestHeader(StreamItConstants.AUTHORIZATION)  String authTokken ){
 		logger.info("StreamIt register New User api starts");
 		logger.debug("request Body {}", registerUserDto);
-		String authTokken = request.getHeader(StreamItConstants.AUTHORIZATION);
+		//String authTokken = request.getHeader(StreamItConstants.AUTHORIZATION);
+		
 		boolean isValid = iSValidTokken (authTokken, StreamItConstants.REGISTER_USER_API_TOKEN);
 		if (!isValid) {
 			logger.info("invalid auth tokken {}", authTokken);

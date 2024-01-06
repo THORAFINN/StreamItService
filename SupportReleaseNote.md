@@ -4,6 +4,22 @@
   
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Version 1.1.0 ###
+  * Enhancement
+   - 1> Spring security added with role based technique
+   - 2> Spring cloud config with eureka server applied for true micro service architecture 
+   
+   - Database changes
+   	
+	alter table login add column email varchar(50);
+	
+	CREATE TABLE `user` (
+    `uid` int NOT NULL AUTO_INCREMENT  PRIMARY KEY,
+    `lid` int DEFAULT NULL,
+    `rid` int NOT NULL DEFAULT '0',
+    `crddt` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `moddt` datetime DEFAULT NULL);
+
 ### Version 1.0.0 ###
   
   * Enhancement 
